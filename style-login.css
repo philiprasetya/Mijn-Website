@@ -1,0 +1,76 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url(Aesthetic\ Wallpaper.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'poppins';
+
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1{
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.container {
+    text-align: center;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 55px 40px;
+    background-image: url(arte.jpeg);
+}
+
+input[type=text],input[type=password]{
+  margin: 10px;
+  height: 40px;
+  width: 270px;
+  border-radius: 20px;
+}
+
+::placeholder{
+  padding-left: 10px;
+}
+
+#label-remember{
+  color: aliceblue;
+  font-size: small;
+}
+
+#forgot-password{
+  font-size: small;
+}
+
+#forgot-password,#label-remember{
+  margin: 10px;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-acc{
+  color: aliceblue;
+  font-size: small;
+}
